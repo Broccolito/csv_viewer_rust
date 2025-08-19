@@ -1,0 +1,16 @@
+[package]
+name = "csv-viewer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.24"
+egui = "0.24"
+csv = "1.3"
+rfd = "0.12"
+
+[[bin]]
+name = "csv-viewer"
+path = "src/main.rs"
+
+
